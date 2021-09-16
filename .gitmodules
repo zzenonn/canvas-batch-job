@@ -1,0 +1,3 @@
+[submodule "canvas-data-collector"]
+	path = canvas-data-collector
+	url = https://github.com/zzenonn/canvas-data-collector
