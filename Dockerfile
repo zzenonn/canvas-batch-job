@@ -19,8 +19,6 @@ RUN pip install -r /canvas-data-collector/requirements.txt
 COPY entrypoint.sh /
 
 ENV AWS_DEFAULT_REGION=ap-northeast-2
-ENV AWS_ACCESS_KEY_ID=AKIA4CJZIRV5U2IEURH4
-ENV AWS_SECRET_ACCESS_KEY=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
 
 
 ENTRYPOINT ["/entrypoint.sh"]
